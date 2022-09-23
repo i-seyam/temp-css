@@ -3,7 +3,7 @@
     height: 100%; 
     padding: 0%;
     font-size: 15px;
- line-height: 1.5;
+    line-height: 1.5;
            
 }
 #bg-img {
@@ -12,4 +12,23 @@ background-position: center;
   background-position-x: center;
   background-position-y: center;
 background-size: cover;
+animation: opac 0.8s;
+animation-name: opac;
+animation-duration: 0.8s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+animation-play-state: running;
+animation-timeline: ;
+}
+#logo {
+    padding: 12px 24px !important;
+    font-size: 24px !important;
+    box-sizing: inherit;
+    position: absolute;
+    left: 0;
+    top: 0
+    color: #fff !important;
 }
