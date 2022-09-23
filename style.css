@@ -1,34 +1,107 @@
-#body h1 { 
+#body h1,
+html {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100%; 
+    height: 100%;
     padding: 0%;
     font-size: 15px;
     line-height: 1.5;
-           
+
 }
+
 #bg-img {
     min-height: 100%;
-background-position: center;
-  background-position-x: center;
-  background-position-y: center;
-background-size: cover;
-animation: opac 0.8s;
-animation-name: opac;
-animation-duration: 0.8s;
-animation-timing-function: ease;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-fill-mode: none;
-animation-play-state: running;
-animation-timeline: ;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    animation: opac 0.8s;
+    animation-name: opac;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-timeline: none;
+    position: relative;
+    box-sizing: inherit;
 }
+
 #logo {
     padding: 12px 24px !important;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
     font-size: 24px !important;
     box-sizing: inherit;
     position: absolute;
     left: 0;
     top: 0
-    color: #fff !important;
+}
+
+#dis-midd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: inherit;
+    font-family: "Raleway", sans-serif;
+}
+
+#jumbo-txt {
+    font-size: 64px !important;
+    position: relative;
+    animation: animatetop 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-timeline: ;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    box-sizing: inherit;
+    color: #a3b18a;
+    box-sizing: inherit;
+
+}
+
+#bor-gre {
+    border-color: #9e9e9e !important;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+#p {
+    text-align: center;
+    color: #f1faee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#ending {
+    padding: 12px 24px !important;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #f1faee;
+}
+a {
+    color: #f1faee;
 }
